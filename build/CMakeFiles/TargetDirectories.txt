@@ -1,0 +1,3 @@
+/Users/thomasbradbury/Documents/distributed_kv_store_v2/build/CMakeFiles/kv_store.dir
+/Users/thomasbradbury/Documents/distributed_kv_store_v2/build/CMakeFiles/edit_cache.dir
+/Users/thomasbradbury/Documents/distributed_kv_store_v2/build/CMakeFiles/rebuild_cache.dir
