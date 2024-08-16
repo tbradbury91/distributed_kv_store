@@ -2,19 +2,7 @@ Distributed Key-Value Store
 
 This project is a simple yet powerful distributed key-value store implemented in C++. It supports basic operations such as storing, retrieving, and deleting key-value pairs and is designed with a focus on performance, scalability, and ease of use. Additionally, it includes a built-in stress test to evaluate the system's performance under load.
 
-Table of Contents
 
-Project Overview
-Features
-System Architecture
-Prerequisites
-Setup
-Usage
-Stress Testing
-Contributing
-License
-Contact
-Project Overview
 
 The Distributed Key-Value Store is designed to provide a scalable solution for storing and retrieving data across multiple nodes in a network. This project serves as a foundational implementation of distributed systems concepts.
 
@@ -39,14 +27,12 @@ Setup
 1. Clone the Repository
 First, clone the repository to your local machine:
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/distributed_kv_store.git
 2. Open the Project in VS Code
 Navigate to the project directory and open it in Visual Studio Code:
 
-bash
-Copy code
+
 cd distributed_kv_store
 code .
 3. Configure Build and Debug Settings
@@ -68,39 +54,32 @@ Usage
 1. Running the Key-Value Store
 To start the key-value store, run the compiled executable:
 
-bash
-Copy code
+
 ./kv_store
 2. Interacting with the Key-Value Store
 You can interact with the key-value store using the following commands:
 
 PUT Command: Store a key-value pair
-bash
-Copy code
+
 PUT mykey myvalue
 PUT username john_doe
 GET Command: Retrieve the value for a given key
-bash
-Copy code
+
 GET mykey
 Example:
 
-bash
-Copy code
+
 GET username
 Expected output:
 
-bash
-Copy code
+
 john_doe
 REMOVE Command: Delete a key-value pair
-bash
-Copy code
+
 REMOVE mykey
 Example:
 
-bash
-Copy code
+
 REMOVE username
 Stress Testing
 
@@ -108,8 +87,7 @@ To assess the performance of the key-value store under load, a built-in stress t
 
 To run the stress test:
 
-bash
-Copy code
+
 ./kv_store --stress-test
 The results will include metrics such as response time, throughput, and any errors encountered, helping you identify potential bottlenecks and optimize the system.
 
