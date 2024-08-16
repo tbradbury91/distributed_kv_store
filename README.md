@@ -7,10 +7,15 @@ The Distributed Key-Value Store is designed to provide a scalable solution for s
 Features
 
 PUT: Store a key-value pair.
+
 GET: Retrieve the value for a given key.
+
 REMOVE: Delete a key-value pair.
+
 Distributed Architecture: Operates across multiple nodes for improved scalability and fault tolerance.
+
 Built-in Stress Test: Evaluate the performance of the key-value store under high load conditions.
+
 System Architecture
 
 The distributed key-value store follows a modular architecture with distinct layers for networking, data storage, and client interactions. Nodes communicate with each other to manage data distribution and ensure consistency. The system is designed to handle network partitions and node failures gracefully, ensuring high availability.
