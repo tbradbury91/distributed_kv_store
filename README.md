@@ -2,7 +2,7 @@ Distributed Key-Value Store
 
 This project is a simple yet powerful distributed key-value store implemented in C++. It supports basic operations such as storing, retrieving, and deleting key-value pairs, and is designed with a focus on performance, scalability, and ease of use. Additionally, it includes a built-in stress test to evaluate the system's performance under load.
 
-The Distributed Key-Value Store is designed to provide a scalable solution for storing and retrieving data across multiple nodes in a network. This project serves as a foundational implementation of distributed systems concepts, making it a great learning tool and an impressive showcase of your C++ skills.
+The Distributed Key-Value Store is designed to provide a scalable solution for storing and retrieving data across multiple nodes in a network. This project serves as a foundational implementation of distributed systems concepts.
 
 Features
 
